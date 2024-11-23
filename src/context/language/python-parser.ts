@@ -100,7 +100,7 @@ export class PythonParser implements AbstractParser {
       };
 
       traverseNode(tree.rootNode as unknown as TreeSitterNode);
-
+      //ok
       // Convert TreeSitterNode to expected Node format
       const convertedNode: ASTNode | null = largestEnclosingContext
         ? {
